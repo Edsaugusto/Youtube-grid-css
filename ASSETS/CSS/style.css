@@ -37,15 +37,17 @@ main{
 }
 .dados-video{
     display: flex;
+    padding-top: 5px;
 }
 .video-stats{
     padding-left: 10px;
+    height: 50px;
 }
 .video-stats h2{
     padding-bottom: 10px;
     font-size: 15px;
     width: 195px;
-    height:40px;
+    min-height:20px;
 }
 .video-stats p{
     font-size: 14px;
