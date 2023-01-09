@@ -26,16 +26,40 @@ main{
     align-items: center;
     gap: 6px;
 }
-h2{
-    font-size: 16px;
-    width: 205px;
-}
 .image-thumb{
-    width: 215px;
-    height: 130px;
+    width: 235px;
+    height: 140px;
     border: 2px solid red;
 }
 .thumb{
+    width: 100%;
+    height: 100%;
+}
+.dados-video{
+    display: flex;
+}
+.video-stats{
+    padding-left: 10px;
+}
+.video-stats h2{
+    padding-bottom: 10px;
+    font-size: 15px;
+    width: 195px;
+    height:40px;
+}
+.video-stats p{
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+}
+.logo-canal{
+    width: 38px;
+    height: 38px;
+    margin:0;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.avatar-logo{
     width: 100%;
     height: 100%;
 }
