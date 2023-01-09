@@ -23,6 +23,22 @@ main{
 #menu-logo .logo-youtube{
     padding-left: 15px;
 }
+#pesquisa{
+    display: flex;
+    align-items: center;
+}
+#pesquisa input{
+    height: 40px;
+    width: 340px;
+    border: 1px solid rgba(204, 204, 204, 1);
+}
+#pesquisa button{
+    height: 42px;
+    width: 57px;
+    border-top: 1px solid rgba(204, 204, 204, 1);
+    border-right: 1px solid rgba(204, 204, 204, 1);
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+}
 .opcao {
     display: flex;
     column-gap: 15px;
